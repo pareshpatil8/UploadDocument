@@ -1,0 +1,60 @@
+
+[sso-session ailab]
+
+sso_start_url = https://rebit.awsapps.com/start
+
+sso_region = ap-south-1
+
+sso_registration_scopes = sso:account:access
+
+[profile bedrock-<projectname>-<role>]
+
+sso session = ailab
+
+sso_account id = 124727572053
+
+sso_role_name = BedrockLabAccess-<ProjectName>-<Role>
+
+region = ap-south-1
+
+
+
+{
+
+H1
+
+BIS
+
+Subscription.tx
+
+IDMD DE
+
+田
+
+"claudeCode.environmentVariables": [
+
+{ "name": "CLAUDE_CODE_USE_BEDROCK", "value": "1"
+
+},
+
+{ }
+
+"name": "AWS_REGION", "value": "ap-south-1"
+
+},
+
+{ "name": "AWS_PROFILE", "value": "<INSERT_YOUR_AWS_PROFILE_NAME_HERE>"
+
+},
+
+{ "name": "ANTHROPIC_DEFAULT_OPUS_MODEL", "value": "<INSERT_YOUR_LONG_BEDROCK_PROFILE_ARN_HERE>"
+
+}
+
+1
+
+}
+
+
+
+
